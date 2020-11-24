@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.daraltebassistant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Heya Clinic Assistant"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.EditAppointmentActivity"></activity>
+        <activity android:name=".ui.PatientInfoActivity" />
+        <activity android:name=".ui.ServicesActivity" />
+        <activity android:name=".ui.AddAppointmentActivity" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="Heya Clinic Assistant" />
+        <activity
+            android:name=".ui.Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.ClinicAppointmentActivity" />
+        <activity android:name=".ui.AppointmentDetailActivity" />
+    </application>
+
+</manifest>

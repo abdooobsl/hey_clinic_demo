@@ -1,0 +1,2 @@
+rootProject.name='Dar AlTeb Assistant'
+include ':app'

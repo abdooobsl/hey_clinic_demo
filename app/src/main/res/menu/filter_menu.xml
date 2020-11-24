@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/clear"
+        android:title="clear filter" />
+    <item
+        android:id="@+id/today"
+        android:title="Today" />
+    <item
+        android:id="@+id/yesterday"
+        android:title="Yesterday" />
+    <item
+        android:id="@+id/tommorow"
+        android:title="Tommorow" />
+    <item
+        android:id="@+id/last7"
+        android:title="Last 7 days" />
+    <item
+        android:id="@+id/nex7"
+        android:title="Next 7 days" />
+    <item
+        android:id="@+id/last30"
+        android:title="Last 30 days" />
+    <item
+        android:id="@+id/next30"
+        android:title="Next 30 days" />
+</menu>
